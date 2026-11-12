@@ -97,6 +97,12 @@ npm run dev          # shopify app dev — tunnel + local dev server
 Set the environment variables from `.env.example` (the Shopify CLI fills most
 of them during `shopify app dev`).
 
+> **New here / connecting to a store for the first time?** See
+> **[CONNECT_TO_SHOPIFY.md](CONNECT_TO_SHOPIFY.md)** — a step-by-step guide to
+> running the app locally, with exactly where to get `SHOPIFY_API_KEY`,
+> `SHOPIFY_API_SECRET` and `DATABASE_URL`, and how to install it onto a free
+> development store.
+
 ## Tests and checks
 
 ```shell
